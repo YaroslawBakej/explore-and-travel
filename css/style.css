@@ -1,0 +1,349 @@
+* {
+    font-family: 'Mulish';
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: local('Mulish'),
+        url(../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'mulish';
+    src: local('Mulish'),
+        url(../fonts/Mulish/static/Mulish-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'inter';
+    src: local('inter'),
+        url(../fonts/Inter/static/Inter-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'inter';
+    src: local('inter'),
+        url(../fonts/Inter/static/Inter-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'playfair-display';
+    src: local('playfair-display'),
+        url(../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf) format("truetype");
+}
+
+body {
+    background: #F5F5F5;
+    margin: auto;
+    max-width: 1120px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    padding: 15px 0px;
+    background: #F5F5F5;
+    z-index: 1;
+}
+
+header nav {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
+header nav ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo {
+    background-image: url(../img/Group\ 7.svg);
+    height: 44px;
+    width: 44px;
+    background-repeat: no-repeat;
+}
+
+header nav ul li:not(:last-child) {
+    margin-right: 35px;
+}
+
+header nav ul li {
+    color: #B8BECD;
+
+}
+
+header nav ul li:hover {
+    color: #B8BECD;
+}
+
+.log-btn {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    padding: 8px 46px;
+    color: #FB8F1D;
+    margin: 0px 18px 0px 34px;
+}
+
+.reg-btn {
+    border: 1px solid #FB8F1D;
+    border-radius: 8px;
+    padding: 8px 46px;
+    background-color: #FB8F1D;
+}
+
+main {
+    position: relative;
+    margin-top: 70px;
+}
+
+.container-btns {
+    display: flex;
+}
+
+.explore-travel-img {
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    background-image: url(../img/thousand-01\ 1.png);
+    width: 506px;
+    height: 483px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.block-explore-travel input {
+
+    border: 0.8px solid #AFB0B9;
+    border-radius: 6px;
+    padding: 15px 0px 15px 20px;
+}
+
+.block-explore-travel {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-explore-travel h1 {
+    font: 700 64px 'Playfair Display';
+    color: #202336;
+    height: 234px;
+}
+
+.block-explore-travel p {
+    font: 600 22px 'inter';
+    color: #202336;
+}
+
+.container-inpts {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-inpts div {
+    margin-bottom: 35px;
+}
+
+.container-inpts div:not(:last-child) {
+    margin-right: 35px;
+}
+
+.wrapper-explore-travel {
+    width: 500px;
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.explore-btn {
+    background: #FB8F1D;
+    border-radius: 8px;
+    padding: 12px 30px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 80px;
+}
+
+.block-new-way {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.new-way-img {
+    background-image: url(../img/Thousand-02\ 1.jpg);
+    height: 434px;
+    width: 559px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.new-way-wrapper {
+    position: relative;
+    top: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 327px;
+    justify-content: space-between;
+}
+
+.new-way-wrapper h1 {
+    font: 700 36px 'Playfair Display';
+    color: #000000;
+}
+
+.new-way-wrapper p {
+    font: 300 17px 'mulish';
+    color: #7D7987;
+}
+
+.learn-more {
+    background: #FB8F1D;
+    border-radius: 8px;
+    width: 100px;
+    text-align: center;
+    padding: 12px 30px;
+    font: 600 16px 'inter';
+    color: #FFFFFF;
+}
+
+.featured-destinations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.featured-destinations h1 {
+    font: 700 36px 'Playfair Display';
+}
+
+.featured-destinations p {
+    font: 600 17px 'inter';
+    color: #FB8F1D;
+}
+
+.featured-destinations-img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-1 {
+    background-image: url(../img/Raja\ ampat.svg);
+    width: 261px;
+    height: 332px;
+}
+
+.img-2 {
+    background-image: url(../img/Fanjingshan.svg);
+    width: 261px;
+    height: 332px;
+}
+
+.img-3 {
+    background-image: url(../img/Vevey.svg);
+    width: 261px;
+    height: 332px;
+}
+
+.img-4 {
+    background-image: url(../img/Skadar.svg);
+    width: 261px;
+    height: 332px;
+}
+
+.guides {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.guides-wrapper {
+    margin-top: 150px;
+    width: 450px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.guides-img {
+    background-image: url(../img/Thousand-03.svg);
+    background-repeat: no-repeat;
+    width: 599px;
+    height: 542px;
+}
+
+.guides-wrapper h1 {
+    font: 700 36px 'Playfair Display';
+    color: #000000;
+    width: 350px;
+}
+
+.guides-wrapper p {
+    font: 300 17px 'mulish';
+    color: #7D7987;
+}
+
+.guides-btn {
+    background: #FB8F1D;
+    border-radius: 8px;
+    padding: 12px 45px;
+    color: #FFFFFF;
+    width: 80px;
+}
+
+footer nav {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 391px;
+    height: 180px;
+}
+
+.footer-img {
+    background-image: url(../img/Group\ 7.svg);
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+}
+
+.right-side-footer p {
+    font: 300 18px 'mulish';
+    color: #848484;
+}
+footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 180px ;
+}
+footer ul li{
+    font: 700 19px 'mulish';
+    color: #000000;
+}
+footer ul li:not(:first-child){
+    font: 300 18px 'mulish';
+    color: #848484;
+}
