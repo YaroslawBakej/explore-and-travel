@@ -333,17 +333,137 @@ footer nav {
     font: 300 18px 'mulish';
     color: #848484;
 }
-footer ul{
+
+footer ul {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 180px ;
+    height: 180px;
 }
-footer ul li{
+
+footer ul li {
     font: 700 19px 'mulish';
     color: #000000;
 }
-footer ul li:not(:first-child){
+
+footer ul li:not(:first-child) {
     font: 300 18px 'mulish';
     color: #848484;
+}
+
+@media screen and (max-width: 1120px) {
+    header {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header .img-logo {
+        background-image: none;
+        width: 0px;
+        height: 0px;
+    }
+
+    header nav ul li:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .log-btn {
+        margin: 0px 9px 0px 17px;
+        padding: 8px 30px;
+    }
+
+    .reg-btn {
+        padding: 8px 30px;
+        margin-right: 20px;
+    }
+
+    .wrapper-explore-travel {
+        width: 300px;
+        height: 261px;
+    }
+
+    .container-inpts {
+        width: 300px;
+    }
+
+    .container-inpts input {
+        width: 100px;
+    }
+
+    .container-inpts div:not(:last-child) {
+        margin-right: 15px;
+    }
+
+    .explore-travel-img {
+        width: 260px;
+        height: 242px;
+        top: 50px;
+    }
+
+    .new-way-wrapper {
+        position: static;
+        top: 50px;
+    }
+
+    .featured-destinations {
+        margin-top: 0px;
+    }
+
+    .featured-destinations-img div {
+        width: 130px;
+        height: 166px;
+        background-size: contain;
+
+    }
+
+    .guides {
+        margin-top: 0px;
+    }
+
+    .guides-wrapper {
+        margin-top: 50px;
+        width: 260px;
+
+    }
+
+    .guides-wrapper h1 {
+        width: 280px;
+    }
+
+    .guides-img {
+        background-size: contain;
+        width: 300px;
+        height: 271px;
+        margin-top: 100px;
+    }
+
+    .footer-img {
+        width: 0px;
+        height: opx;
+    }
+
+    .right-side-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 240px;
+        height: 100px;
+    }
+
+    .right-side-footer p {
+        font: 300 14px 'mulish';
+    }
+
+    footer ul {
+        height: 100px;
+    }
+
+    footer ul li {
+        font: 300 14px 'mulish';
+    }
+
+    footer ul li:not(:first-child) {
+        font: 300 14px 'mulish';
+    }
 }
